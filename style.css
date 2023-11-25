@@ -1,0 +1,359 @@
+.main {
+    color: #2c2d30;
+    background-color: #231f20;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    background-color: #231f20;
+    color: white;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    
+
+    transition: .2s linear;
+    top: 0;
+}
+
+.header_inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.header_nav {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.header--nav--link {
+    padding-left: 60px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.header--logo {
+ display: flex;
+ width:155px;
+ height: 100%;   
+}
+
+.main_preview{
+    position: relative;
+
+    
+}
+
+.text_overlay_big {
+    position: absolute;
+    color: white;
+    font-family: "Nunito";
+    font-weight: 900;
+    font-size: 128px;
+
+    top: 300px;
+    left: 350px;
+    
+}
+
+.text_overlay{
+    position: absolute;
+    color: white;
+    font-family: "Nunito";
+    font-weight: 900;
+    font-size: 24px;
+
+    top: 440px;
+    right: 400px;
+}
+
+.img--phone {
+    width: 100%;
+    
+    justify-content: center;
+}
+
+.form--download{
+    right: 400px;
+    position: absolute;
+    top: 700px;
+    
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.btn--download{
+    color: white;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: white;
+    background-color: transparent;
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 20px;
+    padding: 9px 20px 9px 20px ;
+    margin-right: 5px;
+}
+
+.download--button--ico {
+    height: 45px;
+    width: 45px;
+}
+.how--works{
+    
+    padding-bottom: 145px;
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.worls--first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.worls--first--1{
+    padding-left: 100px;
+    width: 90px;
+    height: 90px;
+}
+
+.worls--first--2{
+    font-family: "Nunito";
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+}
+
+.worls--first--5{
+    font-family: "Nunito";
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    padding-right: 100px;
+}
+
+.worls--first--3{
+    width: 90px;
+    height: 90px;
+}
+
+.worls--first--4{
+    width: 90px;
+    height: 90px;
+}
+
+.what--after{
+    padding-top: 90px;
+}
+
+.what--after--for--text{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+}
+
+.what--after--text{
+    
+    color: white;
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 32px;
+    z-index: 2;
+}
+
+.what--after--img{
+    height: 106px;
+    width: 120px;
+    position: absolute;
+    left: 40%;
+    top: -105%;
+    
+}
+
+.what--after--colletion1--elem1--img{
+    height: 90px;
+    width: 90px;
+}
+
+.what--after--colletion1--elem1--text{
+    font-family: "Nunito";
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    
+}
+
+.what--after--colletion1--elem1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 300px;
+    
+}
+
+.what--after--colletion1{
+    
+    padding-top: 80px;
+    display: flex;
+    justify-content: flex-start
+
+}
+
+.what--after--colletion2{
+    
+    display: flex;
+    justify-content: flex-end
+}
+
+.what--after--colletion1--elem2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 300px;
+    
+}
+
+.library--text{
+    display: flex;
+    justify-content: center;
+    padding-top: 290px;
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+}
+
+.slider--top{
+    display: flex;
+    justify-content: center;
+
+}
+.slide{
+    height: 510px;
+    width: 330px;
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+}
+
+.slider--bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.about--us--text{
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+    padding-top: 300px;
+    display: flex;
+    justify-content: center;
+}
+.about--us--text--opicy{
+    font-family: "Nunito";
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.slider--top2{
+    display: flex;
+    justify-content: center;
+
+}
+.slide2{
+    height: 230px;
+    width: 230px;
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-right: 35px;
+}
+
+.slider--bottom2{
+    display: flex;
+    justify-content: center;
+}
+
+.name_us{
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    padding-top: 28px;
+}
+
+.role{
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    padding-top: 18px;
+}
+
+.slide_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sotrud{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 290px;
+    padding-bottom: 340px;
+}
+.Sotrud--text{
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+.Sotrud--opicy{
+    text-align: center;
+    font-family: "Nunito";
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    padding-top: 130px;
+}
+
+.TREX{
+    display: flex;
+    justify-content: center;
+    height: 55px;
+    width: 55px;
+    padding-top: 100px;
+}
